@@ -1,0 +1,26 @@
+{
+  "Database": {
+    "Type": "Mysql",
+    "DbHost": "127.0.0.1",
+    "DbPort": "3306",
+    "DbUser": "root",
+    "DbPassword": "123456789",
+    "DbName": "gin-start",
+    "MaxIdleConns": 10,
+    "MaxOpenConns": 100,
+    "ConnMaxLifetime": 60,
+    "ConnMaxIdleTime": 1
+  },
+  "Redis": {
+    "Host": "127.0.0.1",
+    "Port": "6379",
+    "DB": 0
+  },
+  "Self": {
+    "RouterHost": "0.0.0.0",
+    "RouterPort": "2048"
+  },
+  "Distributed": {
+    "Node": 1
+  }
+}
